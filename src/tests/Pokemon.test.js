@@ -16,7 +16,6 @@ describe('Testa se é renderizado um card', () => {
     const imagePokemon = screen.getByAltText('Pikachu sprite');
     const linkPokemon = 'https://cdn2.bulbagarden.net/upload/b/b2/Spr_5b_025_m.png';
 
-
     expect(namePokemon).toBeInTheDocument();
     expect(typePokemon.textContent).toBe('Electric');
     expect(weightPokemon).toBeInTheDocument();
